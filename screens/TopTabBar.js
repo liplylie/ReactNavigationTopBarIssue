@@ -35,8 +35,6 @@ const MyTabBar = ({state, descriptors, navigation, position}) => {
           });
         };
 
-        const inputRange = state.routes.map((_, i) => i);
-
         return (
           <TouchableOpacity
             accessibilityRole="button"
